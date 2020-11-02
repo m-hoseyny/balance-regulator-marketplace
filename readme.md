@@ -35,7 +35,7 @@ As a result, we put a shared memory (currently Redis) to put the calculated data
 
 
 
-## Data-Driven System architecture
+### Data-Driven System Architecture
 
 The data-driven system writes in the Django framework with the Celery task manager. But Django just is a framework to handle the database schemas and migrations. We use some high-level libraries such as scikit-learn and TensorFlow. We have a lot of offline tasks handled by Celery and Celery-Beat.
 
